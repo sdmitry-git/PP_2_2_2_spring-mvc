@@ -1,0 +1,8 @@
+package web.Service;
+
+import web.Car;
+import java.util.List;
+
+public interface CarService {
+    List<Car> getCars(int count);
+}
